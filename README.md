@@ -1,5 +1,7 @@
 # Detector de fake news
  Criação de um modelo para detecção de noticias falsas em português.
+ Site para testar:
+ https://jhklarcher.github.io/projects/detector_fake_news/
  
 # Dados
 
@@ -30,4 +32,4 @@ A api pode ser acessada no endereço https://detector-fake-news.herokuapp.com/, 
 
 # Página
 
-Foi criada uma página que recebe uma URL de notícia e envia à API, recebendo seu resultado e enviando apresentando de forma mais amigável utilizando JavaScript.
+Foi criada uma [página](https://jhklarcher.github.io/projects/detector_fake_news/) que recebe uma URL de notícia e envia à API, recebendo seu resultado e enviando apresentando de forma mais amigável utilizando JavaScript.
