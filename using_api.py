@@ -12,7 +12,7 @@ noticia_url = "https://oglobo.globo.com/sociedade/antartica-registra-temperatura
 # %%
 # local url
 #url = 'http://127.0.0.1:5000'
-url = 'https://fake-news-python-app.herokuapp.com/'
+url = 'https://detector-fake-news.herokuapp.com/ '
 
 # %%
 # sample data
@@ -21,6 +21,6 @@ data = json.dumps(data)
 
 # %%
 send_request = requests.post(url, data)
-print(send_request)
+print(send_request.json())
 
 # %%
