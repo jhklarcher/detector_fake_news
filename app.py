@@ -23,7 +23,6 @@ def predict():
     article = NewsPlease.from_url(str(data.iloc[0,0]))
     noticia = article.maintext
     noticia = pd.DataFrame(data={'noticia':[noticia]})
-    print(noticia)
     data_df = tfidf_vectorizer.transform(noticia['noticia'])
     
     # predictions
