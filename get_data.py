@@ -7,6 +7,10 @@ import urllib3
 df = pd.DataFrame(columns = ['noticia', 'label'])
 
 # %%
+http = urllib3.PoolManager() # PoolManager
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning) # Desabilitando avisos
+
+# %%
 for i in range(1, 3601):
   url = "https://raw.githubusercontent.com/roneysco/Fake.br-Corpus/master/full_texts/fake/%d.txt" % i # URL da notícia
   r = http.request('GET', url) # Copiando notícia

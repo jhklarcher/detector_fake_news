@@ -59,3 +59,6 @@ print(f'Accuracy: {round(score*100,2)}%')
 # Saving model
 jl.dump(tfidf_vectorizer, 'tfidf_vectorizer.pkl.z')
 jl.dump(model, 'model.pkl.z')
+
+
+# %%
