@@ -2,12 +2,14 @@ import pandas as pd
 from flask import Flask, jsonify, request
 import joblib as jl
 from newsplease import NewsPlease
+from flask_cors import CORS
 
 # load model
 model = jl.load('model.pkl.z')
 tfidf_vectorizer = jl.load('tfidf_vectorizer.pkl.z')
 # app
 app = Flask(__name__)
+CORS(app)
 
 # routes
 @app.route('/', methods=['POST'])

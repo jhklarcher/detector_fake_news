@@ -12,7 +12,7 @@ noticia_url = "https://oglobo.globo.com/sociedade/antartica-registra-temperatura
 # %%
 # local url
 #url = 'http://127.0.0.1:5000'
-url = 'https://detector-fake-news.herokuapp.com/ '
+url = 'https://detector-fake-news.herokuapp.com'
 
 # %%
 # sample data
