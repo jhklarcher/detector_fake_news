@@ -165,7 +165,6 @@ Pygments==2.4.2
 PyHamcrest==2.0.0
 pylint==2.4.2
 PyMySQL==0.9.3
-pyodbc==4.0.27
 pyOpenSSL==19.0.0
 pyparsing==2.4.2
 pyreadline==2.1
