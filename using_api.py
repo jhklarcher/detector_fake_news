@@ -5,7 +5,7 @@ import requests
 import json
 
 # %%
-noticia_url = "https://g1.globo.com/mundo/noticia/2020/02/16/cidades-esponja-conheca-iniciativas-pelo-mundo-para-combater-enchentes-em-centros-urbanos.ghtml"
+noticia_url = "https://www1.folha.uol.com.br/poder/2020/02/bolsonaro-dribla-conviccoes-e-usa-tom-eleitoral-para-afastar-pressao-apos-morte-de-miliciano.shtml"
 #f = open("noticia_teste.txt", "r", encoding="utf8")
 #noticia = f.read() #.encode('utf-8')
 
