@@ -1,6 +1,8 @@
 # Detector de fake news
  Criação de um modelo para detecção de noticias falsas em português.
- Site para testar:
+ 
+ Site:
+ 
  https://jhklarcher.github.io/projects/detector_fake_news/
  
 # Dados
