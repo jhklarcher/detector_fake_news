@@ -1,8 +1,6 @@
+gunicorn==19.9.0
 ago==0.0.93
 alabaster==0.7.12
-anaconda-client==1.7.2
-anaconda-navigator==1.9.7
-anaconda-project==0.8.3
 APScheduler==3.6.3
 asn1crypto==1.0.1
 astroid==2.3.1
